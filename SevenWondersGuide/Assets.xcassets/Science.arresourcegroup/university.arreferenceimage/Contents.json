@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "university.JPG",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "unit" : "centimeters",
+    "width" : 5.8261827799000878
+  }
+}

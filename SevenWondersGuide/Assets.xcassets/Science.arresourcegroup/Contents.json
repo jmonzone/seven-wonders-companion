@@ -1,0 +1,50 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "academy.arreferenceimage"
+    },
+    {
+      "filename" : "apothecary.arreferenceimage"
+    },
+    {
+      "filename" : "babylonwonder.arreferenceimage"
+    },
+    {
+      "filename" : "dispensary.arreferenceimage"
+    },
+    {
+      "filename" : "laboratory.arreferenceimage"
+    },
+    {
+      "filename" : "library.arreferenceimage"
+    },
+    {
+      "filename" : "lodge.arreferenceimage"
+    },
+    {
+      "filename" : "observatory.arreferenceimage"
+    },
+    {
+      "filename" : "school.arreferenceimage"
+    },
+    {
+      "filename" : "scientistsguild.arreferenceimage"
+    },
+    {
+      "filename" : "scriptorium.arreferenceimage"
+    },
+    {
+      "filename" : "study.arreferenceimage"
+    },
+    {
+      "filename" : "university.arreferenceimage"
+    },
+    {
+      "filename" : "workshop.arreferenceimage"
+    }
+  ]
+}

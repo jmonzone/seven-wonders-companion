@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "academy.JPG",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "unit" : "centimeters",
+    "width" : 5.8927312177922433
+  }
+}

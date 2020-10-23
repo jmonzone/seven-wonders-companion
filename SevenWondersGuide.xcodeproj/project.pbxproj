@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD22B7FC2541F8EE0044FFDA /* Combinatorics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22B7FB2541F8EE0044FFDA /* Combinatorics.swift */; };
+		BD22B80025421BF40044FFDA /* WonderSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22B7FF25421BF40044FFDA /* WonderSelectionView.swift */; };
+		BD22B808254225320044FFDA /* WonderStrategyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22B807254225320044FFDA /* WonderStrategyView.swift */; };
 		BD75940D253F5C2000C54410 /* SevenWondersGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75940C253F5C2000C54410 /* SevenWondersGuideApp.swift */; };
 		BD75940F253F5C2000C54410 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75940E253F5C2000C54410 /* ContentView.swift */; };
 		BD759411253F5C2200C54410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD759410253F5C2200C54410 /* Assets.xcassets */; };
 		BD759414253F5C2200C54410 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD759413253F5C2200C54410 /* Preview Assets.xcassets */; };
+		BDD27DCE25408F1A002BA12A /* ARScienceCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD27DCD25408F19002BA12A /* ARScienceCalculatorView.swift */; };
+		BDD27DD12540955B002BA12A /* ToolCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD27DD02540955B002BA12A /* ToolCellView.swift */; };
+		BDD27DD42540B21A002BA12A /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD27DD32540B21A002BA12A /* AboutView.swift */; };
+		BDE5138E253F684800C3E66F /* ARScienceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5138D253F684800C3E66F /* ARScienceCalculator.swift */; };
+		BDE51392253FC01900C3E66F /* ScienceSymbolCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE51391253FC01900C3E66F /* ScienceSymbolCountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD22B7FB2541F8EE0044FFDA /* Combinatorics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinatorics.swift; sourceTree = "<group>"; };
+		BD22B7FF25421BF40044FFDA /* WonderSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderSelectionView.swift; sourceTree = "<group>"; };
+		BD22B807254225320044FFDA /* WonderStrategyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderStrategyView.swift; sourceTree = "<group>"; };
 		BD759409253F5C2000C54410 /* SevenWondersGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenWondersGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD75940C253F5C2000C54410 /* SevenWondersGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenWondersGuideApp.swift; sourceTree = "<group>"; };
 		BD75940E253F5C2000C54410 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD759410253F5C2200C54410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD759413253F5C2200C54410 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD759415253F5C2200C54410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD27DCD25408F19002BA12A /* ARScienceCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScienceCalculatorView.swift; sourceTree = "<group>"; };
+		BDD27DD02540955B002BA12A /* ToolCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolCellView.swift; sourceTree = "<group>"; };
+		BDD27DD32540B21A002BA12A /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		BDE5138D253F684800C3E66F /* ARScienceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScienceCalculator.swift; sourceTree = "<group>"; };
+		BDE51391253FC01900C3E66F /* ScienceSymbolCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceSymbolCountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +68,19 @@
 		BD75940B253F5C2000C54410 /* SevenWondersGuide */ = {
 			isa = PBXGroup;
 			children = (
+				BD22B7FF25421BF40044FFDA /* WonderSelectionView.swift */,
+				BD22B807254225320044FFDA /* WonderStrategyView.swift */,
 				BD75940C253F5C2000C54410 /* SevenWondersGuideApp.swift */,
 				BD75940E253F5C2000C54410 /* ContentView.swift */,
+				BDD27DD32540B21A002BA12A /* AboutView.swift */,
+				BD22B7FB2541F8EE0044FFDA /* Combinatorics.swift */,
+				BDD27DD02540955B002BA12A /* ToolCellView.swift */,
 				BD759410253F5C2200C54410 /* Assets.xcassets */,
 				BD759415253F5C2200C54410 /* Info.plist */,
 				BD759412253F5C2200C54410 /* Preview Content */,
+				BDE5138D253F684800C3E66F /* ARScienceCalculator.swift */,
+				BDE51391253FC01900C3E66F /* ScienceSymbolCountView.swift */,
+				BDD27DCD25408F19002BA12A /* ARScienceCalculatorView.swift */,
 			);
 			path = SevenWondersGuide;
 			sourceTree = "<group>";
@@ -139,7 +163,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD75940F253F5C2000C54410 /* ContentView.swift in Sources */,
+				BDD27DD42540B21A002BA12A /* AboutView.swift in Sources */,
 				BD75940D253F5C2000C54410 /* SevenWondersGuideApp.swift in Sources */,
+				BD22B7FC2541F8EE0044FFDA /* Combinatorics.swift in Sources */,
+				BD22B808254225320044FFDA /* WonderStrategyView.swift in Sources */,
+				BD22B80025421BF40044FFDA /* WonderSelectionView.swift in Sources */,
+				BDE5138E253F684800C3E66F /* ARScienceCalculator.swift in Sources */,
+				BDE51392253FC01900C3E66F /* ScienceSymbolCountView.swift in Sources */,
+				BDD27DD12540955B002BA12A /* ToolCellView.swift in Sources */,
+				BDD27DCE25408F1A002BA12A /* ARScienceCalculatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = qualagames.SevenWondersGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = qualagames.SevenWondersGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
